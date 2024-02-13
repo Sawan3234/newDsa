@@ -1,11 +1,13 @@
 #include<stdio.h>
 int main()
 {
-    int num,i;
+    int num,i,fact=1;
     printf("enter a number:");
     scanf("%d",&num);
     for(i=1;i<=num;i++)
     {
-      int  fact=fact*i;
+     fact=fact*i;
     }
+    printf("factorail of %d is:%d",num,fact);
+    return 0;
 }
