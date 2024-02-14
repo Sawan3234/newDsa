@@ -11,7 +11,7 @@ int main()
 {
     int n1,n2,g;
     printf("enter two numbers:");
-    scanf("%d %d ",&n1 ,&n2);
+    scanf("%d %d",&n1,&n2);
     printf("gcd of %d & %d:%d",n1,n2,gcd(n1,n2));
     return 0;
 }
