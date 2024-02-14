@@ -2,7 +2,7 @@
 int gcd(int ,int);
 int main()
 {
-    int n1,n2,i,g;
+    int n1,n2,g;
     printf("enter two numbers:");
     scanf("%d %d ",&n1 ,&n2);
     g=gcd(n1,n2);
